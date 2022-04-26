@@ -14,6 +14,7 @@ public class BoxOne : Box // INHERITANCE
         turnSpeed = 30f;
         SetSize(2, 2, 2);
         Debug.Log("Name: " + NameBox);
+        CheckAvailability();
     }
 
     // Update is called once per frame
